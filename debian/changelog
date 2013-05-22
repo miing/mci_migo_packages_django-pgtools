@@ -1,0 +1,17 @@
+django-pgtools (0.1-2) lucid; urgency=low
+
+  * Fixed long sequences and DB engine check.
+
+ -- Anthony Lenton <anthony.lenton@canonical.com>  Fri, 13 Apr 2012 15:12:15 -0300
+
+django-pgtools (0.1-1) lucid; urgency=low
+
+  * Fixed packaging issue (no commands were included in the package)
+
+ -- Łukasz Czyżykowski <lukasz.czyzykowski@canonical.com>  Thu, 02 jun 2011 15:54:06 +0100
+
+django-pgtools (0.1) lucid; urgency=low
+
+  * Initial release
+
+ -- Łukasz Czyżykowski <lukasz.czyzykowski@canonical.com>  Mon, 30 May 2011 12:43:59 +0100

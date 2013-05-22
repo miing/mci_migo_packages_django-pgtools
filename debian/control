@@ -1,0 +1,21 @@
+Source: django-pgtools
+Section: python
+Priority: extra
+Build-Depends: cdbs (>= 0.4.43),
+ debhelper (>= 6),
+ python,
+ python-central (>= 0.6)
+Maintainer: Łukasz Czyżykowski <lukasz.czyzykowski@canonical.com>
+Standards-Version: 3.8.3
+XS-Python-Version: current
+
+Package: python-django-pgtools
+Architecture: all
+XB-Python-Version: ${python:Versions}
+Depends: ${misc:Depends}, ${python:Depends},
+ python-django (>= 1.0.2),
+ python-psycopg2 (<< 2.4.2)
+Description: Set of Django commands for managing PostgreSQL users.
+ Set of Django management commands for handling various aspects of managing
+ PostgreSQL database. Most important of which is ability to create database
+ using different role than the one which will be accessing it normally.
